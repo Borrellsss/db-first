@@ -1,0 +1,21 @@
+Modellizzare in un file di testo come visto questa mattina,
+la struttura di una tabella per memorizzare tutti i dati riguardanti
+delle auto usate messe in vendita da un concessionario.
+
+Data Base: used_cars;
+
+id = INT/PRIMARY_KEY/NOTNULL/AUTO_INCREMENT/UNIQUE/INDEX;
+model = VARCHAR(30)/NOTNULL/INDEX;
+brand = VARCHAR(15)/NOTNULL;
+year = DATE/NULL;
+cv = SMALLINT/NULL;
+trasmission = VARCHAR(10)/NOTNULL;
+engine = VARCHAR(10)/NOTNULL;
+car_doors = TINYINT/NULL;
+color = VARCHAR(20)/NULL;
+width = SMALLINT/NULL;
+kms = MEDIUMINT/NOTNULL;
+state = VARCHAR(10)/NOTNULL;
+price = MEDIUMINT/NOTNULL/INDEX;
+number_of_owners = TINYINT/NULL;
+salesman = VARCHAR(40)/NULL;
